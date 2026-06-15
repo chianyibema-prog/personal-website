@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(63, 39, 39);
+   
+}
+
+    
+.d1{
+ width: 30%;
+ height: 30%;
+ background-image: linear-gradient(46deg,blue,rgb(119, 119, 248) ,rgb(212, 119, 119));
+ box-shadow: 3px 3px 3px  rgb(1, 1, 32);
+border-radius: 50px;
+margin-left: 34%;
+margin-top: 7%;
+
+}
+input {
+    width:87%;
+     padding: 15;
+    border-radius: 35px;
+ background-color: rgb(101, 101, 200);
+ box-shadow: 3px 3px 3px ;
+ margin-left: 6%;
+}
+div{
+    width: 50%;
+    height:100%;
+    background-image:linear-gradient( 46deg ,pink, rgb(196, 136, 146) ,rgb(226, 160, 226));
+    margin-left: 25%;
+}

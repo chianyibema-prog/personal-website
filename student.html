@@ -1,0 +1,248 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student.css">
+ </head>
+ <body>
+    <header> 
+        <h1>SCHOOL FOR RICH PEOPLE ONLY </h1>
+        <img src="C:\Users\user\Downloads\green value project\IMG-20250730-WA0017.jpg" alt="">
+        <h3>231,common street ,shomiatown, sapapa, lagos     to contact us 09088787656,09088765432,kila@gmil.com,sevon@gmail.com </h3>
+    </header>
+   <h2 style="font-size: 18px; position: absolute;top: 18%;" >NAME: <input type="text" style="width: 400%; position: absolute;top: 1%;"></h1> 
+    <h2 style="font-size: 23px; position: absolute;top: 22% ; left: 2%;" >sex: <input type="text" style="width: 650%; position: absolute;top: 10%;"></h1> 
+        <h2 style="font-size: 18px; position: absolute;top: 29% ; left: 2%;" >SESSION: <input type="text" style="width: 250%; position: absolute;top: 10%;"></h1> 
+            <h2 style="font-size: 18px; position: absolute;top: 34% ; left: 2%;" >CLASS: <input type="text" style="width: 350%; position: absolute;top: 10%;"></h1> 
+
+<div>
+
+    <table border="2">
+        <tr>
+            <th>
+SUBJECT NAME
+            </th>
+
+
+            <th>
+
+CA
+            </th>
+
+
+            <th>
+
+EXAM
+            </th>
+<th>
+    total
+</th>
+<th>
+    grade
+</th>
+
+        </tr>
+
+ <tr>
+    <td>
+Mathematics
+    </td>
+    <td>
+<input type="text" name="" id="mca" >
+    </td>
+    <td>
+<input type="text" id="mex">
+    </td>
+    <td>
+<p id="mtot">total</p>
+    </td>
+    <td>
+     <p id="mgd">grade</p>
+    </td>
+
+ </tr>
+
+
+
+ <tr>
+    <td>
+emglish
+    </td>
+    <td>
+<input type="text" name="" id="mca2" >
+    </td>
+    <td>
+<input type="text" id="mex2">
+    </td>
+    <td>
+<p id="mtot2">total</p>
+    </td>
+    <td>
+     <p id="mgd2">grade</p>
+    </td>
+
+ </tr>
+
+
+
+ <tr>
+    <td>
+chemistry
+    </td>
+    <td>
+<input type="text" name="" id="mca3" >
+    </td>
+    <td>
+<input type="text" id="mex3">
+    </td>
+    <td>
+<p id="mtot3">total</p>
+    </td>
+    <td>
+     <p id="mgd3">grade</p>
+    </td>
+
+ </tr>
+
+
+ <tr>
+    <td>
+physic
+    </td>
+    <td>
+<input type="text" name="" id="mca4" >
+    </td>
+    <td>
+<input type="text" id="mex4">
+    </td>
+    <td>
+<p id="mtot4">total</p>
+    </td>
+    <td>
+     <p id="mgd4">grade</p>
+    </td>
+
+ </tr>
+ <button onclick="cal()" style="position:absolute ; top: 25%; left: 100%;">calcute</button>
+<button onclick="add()" style="position:absolute ; top: 45%; left: 100%;">calcute</button>
+<button onclick="sum()" style="position:absolute ; top: 65%; left: 100%;">calcute</button>
+<button onclick="plus()" style="position:absolute ; top: 90%; left: 100%;">calcute</button>
+</table>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+               
+<script>
+    function cal()
+    {
+    let mathca = document.getElementById("mca").value;
+    let mathex = document.getElementById("mex").value;
+
+    total = Number(mathca)+ Number(mathex)
+
+    document.getElementById("mtot").innerHTML = total
+
+    if(  (total >= 60) && ( total<=100) ){
+        document.getElementById("mgd").innerHTML = "pass"
+    }
+         else {
+            document.getElementById("mgd").innerHTML="fail"
+        }
+
+
+
+
+        
+    
+        }
+
+
+
+
+
+        function add()
+    {
+    let mathca = document.getElementById("mca2").value;
+    let mathex = document.getElementById("mex2").value;
+
+    total = Number(mathca)+ Number(mathex)
+
+    document.getElementById("mtot2").innerHTML = total
+
+    if(  (total >= 60) && ( total<=100) ){
+        document.getElementById("mgd2").innerHTML = "pass"
+    }
+         else {
+            document.getElementById("mgd2").innerHTML="fail"
+        }
+        }
+
+
+
+        function sum()
+    {
+    let mathca = document.getElementById("mca3").value;
+    let mathex = document.getElementById("mex3").value;
+
+    total = Number(mathca)+ Number(mathex)
+
+    document.getElementById("mtot3").innerHTML = total
+
+    if(  (total >= 60) && ( total<=100) ){
+        document.getElementById("mgd3").innerHTML = "pass"
+    }
+         else {
+            document.getElementById("mgd3").innerHTML="fail"
+        }
+
+
+
+
+        
+    
+        }
+
+
+
+        function plus()
+    {
+    let mathca = document.getElementById("mca4").value;
+    let mathex = document.getElementById("mex4").value;
+
+    total = Number(mathca)+ Number(mathex)
+
+    document.getElementById("mtot4").innerHTML = total
+
+    if(  (total >= 60) && ( total<=100) ){
+        document.getElementById("mgd4").innerHTML = "pass"
+    }
+         else {
+            document.getElementById("mgd4").innerHTML="fail"
+        }
+
+
+
+
+        
+    
+        }
+
+
+
+
+</script>
+ </body>
+ </html>

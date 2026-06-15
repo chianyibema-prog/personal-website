@@ -1,0 +1,92 @@
+body{
+    background-color: #eef3f8;
+    font-family: poppins,arial,sans-serif;
+    color: white;
+    display: flex;
+
+}
+ 
+header{
+    height: 15%;
+    width: 100%;
+    position:fixed;
+    top:0%;
+    left: 0%;
+    background-color:#0a2540;
+text-align: center;
+}
+div{
+    height: 100%;
+    width:20%;
+    position: absolute;
+    top:15%;
+    left: 0%;
+    background-color: #2f4f6f;
+    z-index: -1;
+    display: flex;
+}
+.div1{
+height: 15%;
+width: 35%;
+border-radius: 50%;
+ background-color:black;
+position: absolute;
+top: 2%;
+left: 4%;
+transition: transform 0.3s ease;
+display: flex;
+}
+.div2{
+    height: 15%;
+    width: 35%;
+    border-radius: 50%;
+     background-color: beige;
+    position: absolute;
+    top: 23%;
+    left: 4%;
+    transition: transform 0.3s ease;
+    display: flex;
+    }
+    .div3{
+        height: 15%;
+        width: 35%;
+        border-radius: 50%;
+         background-color: beige;
+        position: absolute;
+        top: 43%;
+        left: 4%;
+        transition: transform 0.3s ease;
+        display: flex;
+        }
+        .div4{
+            height: 15%;
+            width: 35%;
+            border-radius: 50%;
+             background-color: beige;
+            position: absolute;
+            top: 63%;
+            left: 4%;
+            transition: transform 0.3s ease;
+            display: flex;
+            }
+    
+        .div1:hover{
+
+transform: scale(1.1);
+        }
+        .div2:hover{
+
+            transform: scale(1.1);
+                    }
+                    .div3:hover{
+
+                        transform: scale(1.1);
+                                }
+                                .div4:hover{
+
+                                    transform: scale(1.1);
+                                            }
+
+        img{
+border-radius: 50%;
+        }

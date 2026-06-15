@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(201, 138, 201);
+}
+.div1{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    background-color: rgb(246, 233, 247);
+    width: 30%;
+    height: 85%;
+    border-radius: 35px;
+    box-shadow: gray  3px 3px 10px 0px;
+
+}
+ 
+.div2{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(225, 225, 225);
+    border-radius: 35px;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    box-shadow: rgb(68, 68, 68) 3px 3px 3px  ;
+    font-size: 3rem;
+    text-align: right;
+
+
+}
+.button1{
+    width: 10%;
+    height:10%;
+    margin-left: 12%;
+    margin-top: 45%;
+    border-radius: 50%;
+    box-shadow: grey 3px 3px 10px 0px;
+    
+}
+.button2{
+    width: 10%;
+    height:10%;
+    margin-left: 12%;
+    margin-top: 4%;
+    border-radius: 50%;
+    box-shadow: grey 3px 3px 10px 0px;
+    
+}
+.button3{
+    width: 10%;
+    height:10%;
+    margin-left: 12%;
+    margin-top: 4%;
+    border-radius: 50%;
+    box-shadow: grey 3px 3px 10px 0px;
+    
+}
+.button4{
+    width: 10%;
+    height:10%;
+    margin-left: 12%;
+    margin-top: 4%;
+    border-radius: 50%;
+    box-shadow: grey 3px 3px 10px 0px;
+    
+}

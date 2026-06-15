@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <!-- a: <input type="text" id="a">
+b: <input type="text" id="b">
+c: <input type="text" id="c">
+total:   <p id= "disp"></p> 
+<button onclick="product()"> calculate</button>
+average: <p id="avg"></p> -->
+<body>
+    <script>
+// function product(){
+//     let a = document.getElementById('a').value;
+//     let b = document.getElementById('b').value;
+//     let c = document.getElementById('c').value;
+//     total = Number(a)* Number(b)* Number(c);
+// document.getElementById("disp").innerHTML = total
+// average = total/2
+// document.getElementById("avg").innerHTML =  average
+// }
+
+
+function product()  {
+    product=1
+    for (let x = 0; x < arguments.length; x++) {
+         product= product*arguments[x]
+        document.write ( "<h1> the total of the product is:"+ product)
+    }
+    return product 
+}
+  document.write( " <h1> the product of number is:" + product (10,10,10,10))
+    </script>
+</body>
+</html>
